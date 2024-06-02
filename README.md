@@ -1,4 +1,4 @@
-# Living-in-the-dark-Satelites-that-never-see-the-light
+# Living in the dark: Satelites that never see the light
 
 ## Objetivo
 La finalidad de estre proyecto es la de demostrar la posibilidad de existencia de satélites que siempre estarían escondidos tras el planeta que orbitan a usando para ello un desarrollo matemático en el cual se pondrán en juego las interacciones de distintas leyes físicas.
@@ -58,4 +58,12 @@ El ratio entre las masas siempre será mayor que la unidad, por lo que r', que e
 
 Para poder cerciorarnos que el satélite se haya dentro de la sombra proyectada por el planeta, es necesario conocer el volumen de dicho cono de sombra[1]. Para ello, basta con calcular el volumen de revolución de un triángulo, de tal modo que:
 
-$$ V=\int_0^d $$
+$$ V=\int_0^d \int_0^{r^2=(r-d)^2} 2\pi\ \mathrm{d}r\ \mathrm{d}d = \pi \int_0^d (r-d)^2\ \mathrm{d}d =  -\frac{1}{3}\pi (r-d_{max})^3|^{d}_{0} $$
+
+Si sustituimos en la expresión por los límites de integración y reordenamos un poco los términos, nos queda que el volumen del cono de sombra proyectado por el planeta es
+
+$$ V=\frac{1}{3}\pi[r^3-(r-d_{max})^3] $$
+
+Dentro de dicho volumen, el satélite siempre estaría a oscuras, opacado por el planeta que orbita, demostrando así la existencia teórica de dichos cuerpos celestes. 
+
+[1] Es de notar, que la distanca $\ d_{max}$ es la altura total del cono, desde la base hasta su pico. Eso significa que es necesario que el satélite esté a una distancia d menor que $\ d_{max}$ para asegurarnos que no hay zonas iluminadas. No obstante, en la realidad, dicha distancia sería demasiado grande como para considerar que el satélite estuviese orbitando el planeta en lugar de la estrella.
