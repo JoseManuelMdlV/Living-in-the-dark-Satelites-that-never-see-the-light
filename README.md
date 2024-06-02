@@ -3,7 +3,7 @@
 ## Objetivo
 La finalidad de estre proyecto es la de demostrar la posibilidad de existencia de satélites que siempre estarían escondidos tras el planeta que orbitan a usando para ello un desarrollo matemático en el cual se pondrán en juego las interacciones de distintas leyes físicas.
 
-### Habilidades adquiridas
+## Habilidades adquiridas
 - Razonamiento matemático
 - Fenómenos físicos aplicados a la astrofísica
 - Desarrollo de pensamiento crítico y resolución de problemas
